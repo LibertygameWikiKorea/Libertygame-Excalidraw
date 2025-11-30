@@ -1,5 +1,5 @@
 {
-  "name": "libertygame-excalidraw",
+  "name": "@libertygame/libertygame-excalidraw",
   "version": "0.1.0",
   "description": "Excalidraw custom wrapper package for Libertygame Wiki(https://libertyga.me)",
   "type": "module",
