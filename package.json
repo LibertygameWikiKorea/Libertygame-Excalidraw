@@ -1,7 +1,7 @@
 {
   "name": "libertygame-excalidraw",
-  "private": true,
-  "version": "0.0.0",
+  "version": "0.1.0",
+  "description": "Excalidraw custom wrapper package for Libertygame Wiki(https://libertyga.me)",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -9,12 +9,32 @@
     "lint": "eslint .",
     "preview": "vite preview"
   },
+  "homepage": "https://github.com/LibertygameWikiKorea/Libertygame-Excalidraw",
+  "license": "MIT",
+  "repository": {
+	  "type": "git",
+	  "url": "https://github.com/LibertygameWikiKorea/Libertygame-Excalidraw.git"
+  },
+  "bugs": {
+    "url": "https://github.com/LibertygameWikiKorea/Libertygame-Excalidraw/issues"
+  },
+  "author": "Xen-alpha <senouis@gmail.com> (https://libertygame.work/wiki/User:Senouis)",
+  "browser": "./dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "engines": {
+	  "node": ">=20.0.0",
+	  "npm": ">=9.0.0"
+  },
   "dependencies": {
+    "@excalidraw/excalidraw": "^0.18.0",
     "react": "^19.2.0",
     "react-dom": "^19.2.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.39.1",
+    "@libertygame/types": "^0.7.1",
     "@types/node": "^24.10.1",
     "@types/react": "^19.2.5",
     "@types/react-dom": "^19.2.3",
