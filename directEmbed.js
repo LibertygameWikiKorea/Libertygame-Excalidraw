@@ -1,13 +1,13 @@
 import * as ExcalidrawLib from 'https://esm.sh/@excalidraw/excalidraw@0.18.0/dist/dev/index.js?external=react,react-dom';
-import React from "https://esm.sh/react@19.0.0";
-import ReactDOM from "https://esm.sh/react-dom@19.0.0"
+import React from "https://esm.sh/react@19.0.1";
+import ReactDOM from "https://esm.sh/react-dom@19.0.1"
 
 window.ExcalidrawLib = ExcalidrawLib;
 console.log("Excalidraw library", ExcalidrawLib);
 
 const App = () => {
   return React.createElement(
-    React.Fragment,
+    window.React.Fragment,
     null,
     React.createElement(
       "div",
@@ -20,5 +20,5 @@ const App = () => {
 };
 
 const excalidrawWrapper = document.getElementById("app");
-const root = ReactDOM.createRoot(excalidrawWrapper);
-root.render(React.createElement(App));
+const root = window.ReactDOM.createRoot(excalidrawWrapper);
+root.render(window.React.createElement(App));
