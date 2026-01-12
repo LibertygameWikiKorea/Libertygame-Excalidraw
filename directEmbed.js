@@ -20,5 +20,5 @@ const App = () => {
 };
 
 const excalidrawWrapper = document.getElementById("app");
-const root = window.ReactDOM.createRoot(excalidrawWrapper);
-root.render(window.React.createElement(App));
+const root = ReactDOM.createRoot(excalidrawWrapper);
+root.render(React.createElement(App));
